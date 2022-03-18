@@ -10,13 +10,13 @@
 name: OpenWrt
 
 on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: 0 2 * * *
-  watch:
-    types: started
+  #push:
+    #branches: 
+      #- master
+  #schedule:
+    #- cron: 0 2 * * *
+  #watch:
+   # types: started
 
 jobs:
   build:
